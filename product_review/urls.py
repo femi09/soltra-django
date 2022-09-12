@@ -26,6 +26,7 @@ router = DefaultRouter()
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('authentication/', include('authentication.urls')),
-    path('categories/', include('category.urls'))
+    path('categories/', include('category.urls')),
+    path('products/', include('product.urls'))
     # url(r'^', include(router.urls)),
 ]
